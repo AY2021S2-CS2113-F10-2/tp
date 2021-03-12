@@ -25,4 +25,10 @@ public class UI {
                 + "Run command 'help' to see what you can do.\n"
                 + DIVIDER);
     }
+
+    public static void printErrorMsg(Exception e) {
+        System.out.println(DIVIDER +
+                e.getMessage() +
+                DIVIDER);
+    }
 }
