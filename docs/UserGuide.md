@@ -89,9 +89,9 @@ Record summary: 60 minutes football exercise on 05-01-2020.
 
 ## FAQ
 
-**Q**: {?}
+**Q**: {What is the format of date?}
 
-**A**: {your answer here}
+**A**: {The date format should be DD-MM-YYYY}
 
 ## Command summary
 
