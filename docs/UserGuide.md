@@ -78,7 +78,8 @@ Output:
 A new exercise activity record is added successfully!
 Record summary: 40 minutes running exercise on XX-XX-XXXX(Today).
 ```
-  
+
+Examples:
 `add t/E a/football d/60 date/05-01-2020 add the exercise record of football for 60 mins at the date of 05-01-2020.`  
 
 Output:  
@@ -112,6 +113,7 @@ Index    Date         Activity   Duration
 2        05-01-2020   football     60 min
 ```
 
+Examples:
 `view t/E date/05-02-2020`
 
 Output:
@@ -120,6 +122,8 @@ Displaying all exercise records on date 05-02-2020:
 Index    Date         Activity   Duration 
 1        05-01-2020   football     60 min
 ```
+
+Examples:
 `view t/E view all exercises`
 
 Output:
@@ -198,6 +202,7 @@ Index    Date         Food Item    Weight
 2        05-01-2020   bread        120 g
 ```
 
+Examples:
 `view t/D date/05-02-2020`
 
 Output:
@@ -206,6 +211,8 @@ Displaying all diet records on date 05-02-2020:
 Index    Date         Food Item    Weight
 1        05-01-2020   bread        160 g
 ```
+
+Examples:
 `view t/E`
 
 Output:
@@ -248,17 +255,17 @@ Index    Date         Diet    Weight
 Action | Format | Examples
 --- | --- | --- |
 Help | `help`
-Input Exercise Data: add | `add  t/E a/ACTIVITY_NAME  d/DURATION  [date/DD-MM-YYYY]` | `add t/E a/running d/40`
-View Exercise Data: view | `view  t/E  [a/ACTIVITY_NAME]  [date/DD-MM-YYYY]` | `view t/E a/football`
-Delete Exercise Data: delete | `delete  t/E i/INDEX` | `Delete t/E i/1`
-Input Diet Data: add | `add  t/D f/FOOD_NAME  w/WEIGHT  [date/DD-MM-YYYY]` | `add t/D a/bread d/400`
-View Diet Data: view | `view  t/D  [a/FOOD_NAME]  [date/DD-MM-YYYY]` | `view t/D a/bread`
-Delete Diet Data: delete | `delete  t/D i/INDEX` | `Delete t/E i/1`
-Input Sleep Data: add | `add  t/S  d/DURATION  [date/DD-MM-YYYY]` | `add t/S d/7`
-View Sleep Data: view | `view  t/S  [date/DD-MM-YYYY]` | `view t/S`
-Delete Sleep Data: delete | `delete  t/S i/INDEX` | `Delete t/S i/1`
-Input bodyweight Data: add | `add  t/W w/WEIGHT [date/DD-MM-YYYY]` | `add t/W w/68.5 date/10-01-2021`
-View bodyweight Data: view | `view  t/W  [date/DD-MM-YYYY]` | `view t/W date/05-01-2020`
-Delete bodyweight Data: delete | `delete  t/W i/INDEX` | `Delete t/W i/1`
+Input Exercise Data: `add` | `add  t/E a/ACTIVITY_NAME  d/DURATION  [date/DD-MM-YYYY]` | `add t/E a/running d/40`
+View Exercise Data: `view` | `view  t/E  [a/ACTIVITY_NAME]  [date/DD-MM-YYYY]` | `view t/E a/football`
+Delete Exercise Data: `delete` | `delete  t/E i/INDEX` | `Delete t/E i/1`
+Input Diet Data: `add` | `add  t/D f/FOOD_NAME  w/WEIGHT  [date/DD-MM-YYYY]` | `add t/D a/bread d/400`
+View Diet Data: `view` | `view  t/D  [a/FOOD_NAME]  [date/DD-MM-YYYY]` | `view t/D a/bread`
+Delete Diet Data: `delete` | `delete  t/D i/INDEX` | `Delete t/E i/1`
+Input Sleep Data: `add` | `add  t/S  d/DURATION  [date/DD-MM-YYYY]` | `add t/S d/7`
+View Sleep Data: `view` | `view  t/S  [date/DD-MM-YYYY]` | `view t/S`
+Delete Sleep Data: `delete` | `delete  t/S i/INDEX` | `Delete t/S i/1`
+Input bodyweight Data: `add` | `add  t/W w/WEIGHT [date/DD-MM-YYYY]` | `add t/W w/68.5 date/10-01-2021`
+View bodyweight Data: `view` | `view  t/W  [date/DD-MM-YYYY]` | `view t/W date/05-01-2020`
+Delete bodyweight Data: `delete` | `delete  t/W i/INDEX` | `Delete t/W i/1`
 
 
