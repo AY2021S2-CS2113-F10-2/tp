@@ -95,7 +95,11 @@ Record summary: 60 minutes football exercise on 05-01-2020.
 
 ## Command summary
 
-Action | Format, Examples
---- | ---
+Action | Format | Examples
+--- | --- | --- |
 Help | `help`
+add  | `add  t/E a/ACTIVITY_NAME  d/DURATION  [date/DD-MM-YYYY]`| `add t/E a/running d/40`
+view | `view  t/E  [a/ACTIVITY_NAME]  [date/DD-MM-YYYY]` | `view t/E a/football`
+delete | `delete  t/E i/INDEX` | `Delete t/E i/1`
+
 
