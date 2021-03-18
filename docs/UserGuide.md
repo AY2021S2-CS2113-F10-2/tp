@@ -93,12 +93,12 @@ View one exercise activity with the duration and the date.
 Format: `view  t/E  [a/ACTIVITY_NAME]  [date/DD-MM-YYYY]`
 
 * View existing exercise records. The records will be sorted by date in descending order (The latest record will be the first record).
-* The tag value should be ‘E’ in the upper case, which specifies the output for records of exercise data.
+* The tag value should be `E` in the upper case, which specifies the output for records of exercise data.
 * The name and date of the exercise activity are optional fields used for filtering the records that will be displayed. If none, all existing records will be displayed.
 * The name of the exercise activity may be specified to view records of the specified exercise activity. The name of the exercise should be a String.
 * The date/activity name of the exercise activity may be specified to view records on the specified date.
 * The date should be less than or equal to the current date.
-* The date format should be DD-MM-YYYY, other formats are not acceptable.
+* The date format should be `DD-MM-YYYY`, other formats are not acceptable.
 
 
 Example of usage:  
@@ -136,8 +136,8 @@ Delete existing exercise record.
 Format: `delete  t/E i/INDEX`
 
 * Delete a single exercise record using the Index of the record. 
-* The tag value should be ‘E’ in the upper case, which specifies that the operation is for exercise data.
-* The index of the record must be specified. The index must be an integer within the range of the total number of records, index out of range or other formats are not acceptable.
+* The tag value should be `E` in the upper case, which specifies that the operation is for exercise data.
+* The index of the record must be specified. The index must be an `integer` within the range of the total number of records, index out of range or other formats are not acceptable.
 
 Example of usage:  
 `Delete t/E i/1`
@@ -158,11 +158,11 @@ Add one exercise activity with the duration and the date
 Format: `add  t/D f/FOOD_NAME  w/WEIGHT  [date/DD-MM-YYYY]`
 
 * Add one record. The name of diet and weight must be specified. The name of the exercise should be a String.
-* The tag value should be ‘D’ in the upper case, which specifies that the current record is for exercise data.
-* The default unit of weight is in grams. An integer is expected for the duration, other formats are not acceptable.
+* The tag value should be `D` in the upper case, which specifies that the current record is for exercise data.
+* The default unit of weight is in grams. An `integer` is expected for the duration, other formats are not acceptable.
 * The date of the exercise activity is optional. If not provided, the system date will be used.
 * The date should be less than or equal to the current date.
-* The date format should be DD-MM-YYYY, other formats are not acceptable.
+* The date format should be `DD-MM-YYYY`, other formats are not acceptable.
 
 Examples:
 `add t/D a/bread d/400`
@@ -180,12 +180,12 @@ View diet details on a specific date.
 Format: `view  t/D  [a/FOOD_NAME]  [date/DD-MM-YYYY]`
 
 * View existing records. The records will be sorted by date in descending order (The latest record will be the first record).
-* The tag value should be ‘D’ in the upper case, which specifies the output for records of exercise data.
+* The tag value should be `D` in the upper case, which specifies the output for records of exercise data.
 * The name and date of the food item are optional fields used for filtering the records that will be displayed. If none, all existing records will be displayed.
-* The name of the food may be specified to view records of the specified food. The name of the food should be a String.
+* The name of the food may be specified to view records of the specified food. The name of the food should be a `String`.
 * The date/ name of the food may be specified to view records on the specified date.
 * The date should be less than or equal to the current date.
-* The date format should be DD-MM-YYYY, other formats are not acceptable.
+* The date format should be `DD-MM-YYYY`, other formats are not acceptable.
 
 Examples:
 `view t/D a/bread view`
@@ -222,8 +222,8 @@ Delete existing exercise record.
 Format: `delete  t/D i/INDEX`
 
 * Delete a single diet record using the Index of the record.
-* The tag value should be ‘D’ in the upper case, which specifies that the operation is for exercise data.
-* The index of the record must be specified. The index must be an integer within the range of the total number of records, index out of range or other formats are not acceptable.
+* The tag value should be `D` in the upper case, which specifies that the operation is for exercise data.
+* The index of the record must be specified. The index must be an `integer` within the range of the total number of records, index out of range or other formats are not acceptable.
 
 Examples:
 `Delete t/E i/1`
