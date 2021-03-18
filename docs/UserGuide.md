@@ -87,6 +87,49 @@ A new exercise activity record is added successfully!
 Record summary: 60 minutes football exercise on 05-01-2020.
 ```
 
+### View Exercise Data: `view`
+View one exercise activity with the duration and the date。
+
+Format: `view  t/E  [a/ACTIVITY_NAME]  [date/DD-MM-YYYY]`
+
+* View existing exercise records. The records will be sorted by date in descending order (The latest record will be the first record).
+* The tag value should be ‘E’ in the upper case, which specifies the output for records of exercise data.
+* The name and date of the exercise activity are optional fields used for filtering the records that will be displayed. If none, all existing records will be displayed.
+* The name of the exercise activity may be specified to view records of the specified exercise activity. The name of the exercise should be a String.
+* The date/activity name of the exercise activity may be specified to view records on the specified date.
+* The date should be less than or equal to the current date.
+* The date format should be DD-MM-YYYY, other formats are not acceptable.
+
+
+Example of usage:  
+`view t/E a/football `
+
+Output:
+```
+Displaying all football exercise records: 
+Index    Date         Activity   Duration 
+1        15-01-2020   football     60 min
+2        05-01-2020   football     60 min
+```
+
+`view t/E date/05-02-2020`
+
+Output:
+```
+Displaying all exercise records on date 05-02-2020:
+Index    Date         Activity   Duration 
+1        05-01-2020   football     60 min
+```
+`view t/E view all exercises`
+
+Output:
+```
+Displaying all exercise records:
+Index    Date         Activity   Duration
+1        15-01-2020   football     60 min
+2        05-01-2020   football     60 min
+```
+
 ## FAQ
 
 **Q**: {What is the format of date?}
