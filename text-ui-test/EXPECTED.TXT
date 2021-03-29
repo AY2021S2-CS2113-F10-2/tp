@@ -31,15 +31,6 @@ Record summary:
 40 minutes of DANCE exercise on 25-03-2021
 --------------------------------------------------------------------
 --------------------------------------------------------------------
-A new DIET record is added successfully!
-Record summary:
-500.0g fruit on 27-03-2021
---------------------------------------------------------------------
---------------------------------------------------------------------
-A new SLEEP record is added successfully!
-Record summary:
-5 hours of sleep on 27-03-2021
---------------------------------------------------------------------
 --------------------------------------------------------------------
 The date format is incorrect or the date is invalid. Please try again.
 
