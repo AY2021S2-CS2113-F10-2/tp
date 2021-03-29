@@ -18,7 +18,7 @@ public class UI {
 
     public String getUserInput() {
 
-        return sc.hasNextLine() ? sc.nextLine() : null;
+        return sc.hasNextLine() ? sc.nextLine() : "";
     }
 
     public void printGreetings() {
